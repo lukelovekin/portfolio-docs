@@ -1,0 +1,209 @@
+body {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./docs/woody.jpg);
+    align-items: center;
+}
+
+#mainpadding {
+
+    
+    position: relative;
+    display: grid;
+    border: rgb(102, 100, 96) solid 4px;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+    grid-template-areas: 
+    "head head head head head head head"
+    "side pic pic one one one st"
+    "side pic pic two two two st"
+    "side ab ab three three pic2 pic2"
+    "side four four five five pic2 pic2";
+    background-color: rgb(102, 100, 96);
+    grid-gap: 4px;
+    width: 80vw;
+    height: 85vh;
+	text-align: center;
+	font-size: 1em;
+	font-family: Source Sans Pro;
+    color: black;
+    
+}
+
+header { 
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: head;
+    grid-column: span;
+    background-color: cornsilk;
+}
+
+.sidebar {
+    grid-area: side;
+    display: flex;
+    background-color: cornsilk;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#pic {
+    grid-area: pic;
+    background-color: cornsilk;
+    display: flex;
+   display: grid;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+#resume {
+    background-color: cornsilk;
+    grid-area: one;
+}
+
+#stack { 
+    background-color: cornsilk;
+    grid-area: st;
+
+}
+#about {
+    background-color: cornsilk;
+    grid-area: ab;
+}
+
+#pic2 {
+    grid-area: pic2;
+    background-color: cornsilk;
+
+}
+
+#tech {
+    grid-area: two;
+    background-color: cornsilk;
+}
+
+#e1 {
+    grid-area: three;
+    background-color: cornsilk;
+}
+
+#e2 {
+    grid-area: four;
+    background-color: cornsilk;
+}
+
+#e3 {
+    grid-area: five;
+    background-color: cornsilk;
+}
+
+footer {
+    
+    position: absolute;
+    bottom: -3px;
+    left: -19px;
+    display: flex;
+    padding: 0 20px;
+}
+
+
+/* Desktop
+
+@media only screen and (min-width: 961px) */
+
+/* Tablet */
+@media screen and (max-width: 960px) and (min-width: 401px){
+    #mainpadding {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 700px){
+   
+    #mainpadding {           
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr .75fr 2fr 2fr 2fr 2fr 2fr .1fr;
+        grid-template-areas: 
+        "head head"
+        "drop drop"
+        "pic one"
+        "pic st"
+        "tech three"
+        "e1 pic2"
+        "e2 pic2"
+        "foot foot";
+        font-size: 1em;
+        font-family: Source Sans Pro;
+        color: black;
+        width: 80vw;
+    }
+    header { 
+    grid-area: head;
+    }
+
+    .sidebar {
+    grid-area: drop;
+    flex-direction: row;
+  
+    }
+    #pic {
+    grid-area: pic;
+    }
+
+    #resume {
+    grid-area: one;
+    }
+
+    #stack { 
+    background-color: cornsilk;
+    grid-area: st;
+
+    }
+    #about {
+    background-color: cornsilk;
+    grid-area: three;
+    }
+
+    #pic2 {
+    grid-area: pic2;
+    background-color: cornsilk;
+
+    }
+
+    #tech {
+    grid-area: tech ;
+    background-color: cornsilk;
+    }
+
+    #e1 {
+    grid-area: e1;
+    background-color: cornsilk;
+    }
+
+    #e2 {
+    grid-area: e2;
+    background-color: cornsilk;
+    }
+
+    #e3 {
+    display: none;
+    }
+
+    footer {
+    grid-area: foot;
+    font-size: .5em;}
+
+}
+/* Mobile  */
+@media screen and (max-width: 400px){    
+    #mainpadding {         
+        width: 100vw;
+    }
