@@ -1,0 +1,24 @@
+#mainpadding {
+
+    
+    position: relative;
+    display: grid;
+    /* border: rgba(0, 0, 0, 0.205) solid 4px; */
+    grid-template-columns: 2fr 12fr;
+    grid-template-rows: 1fr 8fr;
+    grid-template-areas: 
+    "head head"
+    "side cont";
+    /* background-color: rgb(102, 100, 96); */
+    grid-gap: 4px;
+    width: 80vw;
+    height: 85vh;
+    max-width: 1240px;
+	text-align: center;
+	font-size: 1em;
+    font-family: Source Sans Pro;
+    font-size: 1.5;
+    font-weight: 600;
+    color: black;
+    opacity: .80;
+}

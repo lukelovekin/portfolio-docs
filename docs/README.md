@@ -1,15 +1,15 @@
 README document
 
-A link (URL) to your published portfolio website
-A link to your GitHub repository (repo)
-Ensure the repo is accessible by your Educators
-Description of your portfolio website, including,
-Purpose
-Functionality / features
-Sitemap
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
+                A link (URL) to your published portfolio website
+                A link to your GitHub repository (repo)
+                Ensure the repo is accessible by your Educators
+                Description of your portfolio website, including,
+                Purpose
+                Functionality / features
+                Sitemap
+                Screenshots
+                Target audience
+                Tech stack (e.g. html, css, deployment platform, etc)
 
 ============
 
@@ -24,11 +24,11 @@ R1	Implement no less than four HTML documents which link together and share a co
 
 ==========
 
-R2	Create FOUR components which contain text content that are styled appropriately for audience. You must:
-- write CSS to style each component, or substantially override a CSS framework’s styles with your own
-- place comments in the CSS and HTML code to identify each component
-- have your custom styles or overrides in a separate stylesheet
-- use semantic HTML elements and attributes to add meaning and accessibility
+                                                                                                                                    R2	Create FOUR components which contain text content that are styled appropriately for audience. You must:
+                                                                                                                                    - write CSS to style each component, or substantially override a CSS framework’s styles with your own
+                                                                                                                                    - place comments in the CSS and HTML code to identify each component
+                                                                                                                                    - have your custom styles or overrides in a separate stylesheet
+                                                                                                                                    - use semantic HTML elements and attributes to add meaning and accessibility
 8
 
 ===========
@@ -44,24 +44,24 @@ NOTE: you may create a component to contain an image and caption that could be r
 
 =========
 
-R4	Create a responsive layout for each page using HTML and CSS utilising Flexbox and/or CSS Grid to produce a responsive layout that:
-- will display all components at desktop, mobile, and tablet viewport widths
-- includes a navigation bar and/or header/sidebar
+                                                                                                                                        R4	Create a responsive layout for each page using HTML and CSS utilising Flexbox and/or CSS Grid to produce a responsive layout that:
+                                                                                                                                        - will display all components at desktop, mobile, and tablet viewport widths
+                                                                                                                                        - includes a navigation bar and/or header/sidebar
 
-All components should:
-- use valid HTML5 elements
-- use semantic HTML elements and attributes to add meaning and accessibility	
-14
+                                                                                                                                        All components should:
+                                                                                                                                        - use valid HTML5 elements
+                                                                                                                                        - use semantic HTML elements and attributes to add meaning and accessibility	
+                                                                                                                                        14
 
 ===========
 
-R5	Utilise source control to track the development of the project and to provide different THREE versions of the site on different branches. The three different versions of the site can have slight cosmetic differences such as:
-- a different colour theme or styles for a component(s)
-- a different font(s)
-- a different layout
+            R5	Utilise source control to track the development of the project and to provide different THREE versions of the site on different branches. The three different versions of the site can have slight cosmetic differences such as:
+            - a different colour theme or styles for a component(s)
+            - a different font(s)
+            - a different layout
 
-Deploy the application to an online platform to make it publicly accessible	
-6
+            Deploy the application to an online platform to make it publicly accessible	
+            6
 
 ==========
 
@@ -121,29 +121,29 @@ Slides include an overview or sitemap of *all* pages on the website. *Comprehens
 
 =============================
 
-Utilises HTML and CSS to create components which communicates text content with clarity (R2*)
-6.0 to >5.0 pts
-HD
-Utilises HTML and CSS to create components which communicate text content with a *very high level* of clarity.
+                                Utilises HTML and CSS to create components which communicates text content with clarity (R2*)
+                                6.0 to >5.0 pts
+                                HD
+                                Utilises HTML and CSS to create components which communicate text content with a *very high level* of clarity.
 
-This criterion is linked to a Learning OutcomeINT1012-4.2: Utilises HTML and CSS to create components which convey meaning with clarity using graphical content (R3*)
-6.0 to >5.0 pts
-HD
-Utilises HTML and CSS to create components which communicate graphical content with a *very high level* of clarity.
-
-================================
-
-Utilises HTML and CSS to combine components to create a website with a purpose which aligns with the brief (R4*)
-6.0 to >5.0 pts
-HD
-Utilises HTML and CSS to create components which combine to communicate content with a *very high level* of clarity.
+                                This criterion is linked to a Learning OutcomeINT1012-4.2: Utilises HTML and CSS to create components which convey meaning with clarity using graphical content (R3*)
+                                6.0 to >5.0 pts
+                                HD
+                                Utilises HTML and CSS to create components which communicate graphical content with a *very high level* of clarity.
 
 ================================
 
-Utilises Flexbox and/or CSS Grid to create a range of functional web page elements (R4*)
-6.0 to >5.0 pts
-HD
-Utilises Flexbox and/or CSS Grid *comprehensively* to create a *wide range* of functional web page elements.
+                                Utilises HTML and CSS to combine components to create a website with a purpose which aligns with the brief (R4*)
+                                6.0 to >5.0 pts
+                                HD
+                                Utilises HTML and CSS to create components which combine to communicate content with a *very high level* of clarity.
+
+================================
+
+                                Utilises Flexbox and/or CSS Grid to create a range of functional web page elements (R4*)
+                                6.0 to >5.0 pts
+                                HD
+                                Utilises Flexbox and/or CSS Grid *comprehensively* to create a *wide range* of functional web page elements.
 
 ==============================
 
