@@ -9,9 +9,7 @@ SRI??
 
 comment code
 
-fix full screen
-
-creat 3 branches!!
+creat 3 branches!! styles, dry editing
 
 =================================
 

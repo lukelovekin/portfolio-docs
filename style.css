@@ -43,7 +43,8 @@ body {
     
 }
 
-header { 
+header {
+    border-radius: 10px; 
     display: flex;
     padding: 0 20px;
     align-items: center;
@@ -54,6 +55,7 @@ header {
 }
 
 .sidebar {
+    border-radius: 10px; 
     grid-area: side;
     display: flex;
     background-color:rgba(182, 179, 179, 0.603);
@@ -64,6 +66,7 @@ header {
 }
 
 #face, #pic2 {
+    border-radius: 10px; 
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -73,6 +76,7 @@ header {
 }
 
 #pic  {
+    border-radius: 10px; 
     grid-area: pic;
     background-color: white;
     display: flex;
@@ -86,11 +90,13 @@ img {
 }
 
 #resume {
+    border-radius: 10px; 
     background-color: white;
     grid-area: one;
 }
 
 #stack { 
+    border-radius: 10px; 
     display: grid;
     grid-area: st;
     grid-template-columns: 1fr 1fr 1fr;
@@ -130,32 +136,38 @@ grid-area: p9;
 }
 
 #about {
+    border-radius: 10px; 
     background-color: rgb(255, 255, 255);
     grid-area: ab;
 }
 
 #pic2 {
+    border-radius: 10px; 
     grid-area: pic2;
     background-color: rgb(255, 255, 255);
 
 }
 
 #tech {
+    border-radius: 10px; 
     grid-area: two;
     background-color: rgb(255, 255, 255);
 }
 
 #e1 {
+    border-radius: 10px; 
     grid-area: three;
     background-color: rgb(255, 255, 255);
 }
 
-#e2 {
+/* #e2 {
+    border-radius: 10px; 
     grid-area: four;
     background-color: rgb(255, 255, 255);
-}
+} */
 
 #news {
+    border-radius: 10px; 
     grid-area: five;
     background-color: white;
 }
@@ -185,6 +197,7 @@ footer {
 
 @media screen and (max-width: 700px){
    
+
     #mainpadding {           
         position: relative;
         display: grid;
@@ -256,6 +269,8 @@ footer {
     grid-area: foot;
     font-size: .5em;}
     
+
+/*  DROP DOWN BAR START */
 /* Button styling */
 .menu-toggle {
   display: inline-block;
@@ -366,7 +381,7 @@ footer {
   background: rgba(0,0,0,.85);
   cursor: default;
 }
-
+/* DROP DOWN END */
 
 }
 /* Mobile  */
