@@ -1,15 +1,72 @@
-README document
+# Luke Lovekin's Portfolio
 
-                A link (URL) to your published portfolio website
-                A link to your GitHub repository (repo)
-                Ensure the repo is accessible by your Educators
-                Description of your portfolio website, including,
-                Purpose
-                Functionality / features
-                Sitemap
-                Screenshots
-                Target audience
-                Tech stack (e.g. html, css, deployment platform, etc)
+
+(A link (URL) to your published portfolio website0
+
+(A link to your GitHub repository)
+               
+## About my website  
+### Purpose
+The purpose of online portfolio website is to, show off skills, potentiel employer, advertise myself, contact me, backgrounds in tech and life, demonstrate certain abilities for web dev, personal, professional projects, my hub.
+
+
+
+## Functionality and Features
+
+responsive to all devices, grid set out, nav bar, header
+main page with 2 pics, about, stack, tech background, about, otherrrr like projects, links to all my socials, home and contact links, resume download option
+
+add effects and animation
+
+## Sitemap
+
+photos of all pages with a detailed overview
+The sections to my portfolio include:
+coverpage
+homepage
+contact
+social links
+resume
+about
+tech background
+projecs
+
+
+## Screenshots
+
+mobile screen shots
+tablet screen shots
+desktop screen shots
+
+
+
+## Target audience
+
+My portfolios target audience
+
+
+## Tech stack (e.g. html, css, deployment platform, etc)
+
+## Wireframes
+
+Presents wireframes/mockups which address the design brief and components required (R8)
+6.0 to >5.0 pts
+HD
+Slides include wireframes/mockups of *all* planned pages of the website. Decision making process is *comprehensively* explained with regards to the overall aesthetic of the website.
+
+## Planning and styling
+
+Outlines how planned pages, components and styling will engage audience (R9)
+6.0 to >5.0 pts
+HD
+Slides include a *very detailed* list of components that will be used. A *comprehensive* explanation is given as to how components and styling will engage the audience.
+
+
+### contrast checker??
+### accessibility
+### testing
+### google lighthouse audit
+
 
 ============
 
@@ -24,11 +81,11 @@ R1	Implement no less than four HTML documents which link together and share a co
 
 ==========
 
-                                                                                                                                    R2	Create FOUR components which contain text content that are styled appropriately for audience. You must:
-                                                                                                                                    - write CSS to style each component, or substantially override a CSS framework’s styles with your own
-                                                                                                                                    - place comments in the CSS and HTML code to identify each component
-                                                                                                                                    - have your custom styles or overrides in a separate stylesheet
-                                                                                                                                    - use semantic HTML elements and attributes to add meaning and accessibility
+R2	Create FOUR components which contain text content that are styled appropriately for audience. You must:
+- write CSS to style each component, or substantially override a CSS framework’s styles with your own
+- place comments in the CSS and HTML code to identify each component
+- have your custom styles or overrides in a separate stylesheet
+- use semantic HTML elements and attributes to add meaning and accessibility
 8
 
 ===========
@@ -44,31 +101,27 @@ NOTE: you may create a component to contain an image and caption that could be r
 
 =========
 
-                                                                                                                                        R4	Create a responsive layout for each page using HTML and CSS utilising Flexbox and/or CSS Grid to produce a responsive layout that:
-                                                                                                                                        - will display all components at desktop, mobile, and tablet viewport widths
-                                                                                                                                        - includes a navigation bar and/or header/sidebar
-
-                                                                                                                                        All components should:
-                                                                                                                                        - use valid HTML5 elements
-                                                                                                                                        - use semantic HTML elements and attributes to add meaning and accessibility	
-                                                                                                                                        14
+R4	Create a responsive layout for each page using HTML and CSS utilising Flexbox and/or CSS Grid to produce a responsive layout that:
+- will display all components at desktop, mobile, and tablet viewport widths
+- includes a navigation bar and/or header/sidebar
+All components should:
+- use valid HTML5 elements
+- use semantic HTML elements and attributes to add meaning and accessibility	
+14
 
 ===========
 
-            R5	Utilise source control to track the development of the project and to provide different THREE versions of the site on different branches. The three different versions of the site can have slight cosmetic differences such as:
-            - a different colour theme or styles for a component(s)
-            - a different font(s)
-            - a different layout
+R5	Utilise source control to track tdevelopment of the project and to providifferent THREE versions of the site different branches. The three differeversions of the site can have slight cosmetdifferences such as:
+- a different colour theme or styles forcomponent(s)
+- a different font(s)
+- a different layout
 
-            Deploy the application to an online platform to make it publicly accessible	
-            6
+Deploy the application to an online platform make it publicly accessible	
+6
 
 ==========
 
 R6	Implement Subresource Integrity (SRI) to enable browsers to verify that resources they fetch are delivered without unexpected manipulation.6
-
-
-
 
 
 

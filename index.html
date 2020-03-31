@@ -6,29 +6,72 @@
     <title>Luke Lovekin</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="dropdown.css">
 </head>
 <body>
     <div id="mainpadding">
         <header>
-            <span> Luke Lovekin </span>
-            <span>Full Stack Developer</span>
+            <span id="hname"> Luke Lovekin </span>
+            <span id="tname">Full Stack Developer</span>
+
+                <div class="smallscreentoggle">
+                    <a href="#main-menu" id="main-menu-toggle" class="menu-toggle">
+                        <span class="sr-only">Open main menu</span>
+                        <span class="fa fa-bars" aria-hidden="true"></span>
+                    </a>
+                
+                    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+                        <a href="#main-menu-toggle" id="main-menu-close" class="menu-close" aria-label="Close main menu">
+                            <span class="sr-only">Close main menu</span>
+                            <span class="fa fa-close" aria-hidden="true"></span>
+                        </a>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href=https://github.com/lukelovekin?tab=repositories
+                                    style="font-size:1.5em ; color: rgb(87, 85, 85);"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/luke-lovekin-b95a2411a/"
+                                    style="font-size:1.5em ; color: rgb(87, 85, 85);"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/luke.lovekin.1" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/luke_lovekin/" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/LovekinLuke" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://medium.com/@lukelovekin" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                                        class="fab fa-medium"></i></a>
+                            </li>
+                
+                        </ul>
+                    </nav>
+                    <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+                </div>
+
         </header>
-            <section class="sidebar">
-                <div><a href="./index.html">Home</a></div>
-                <div><a href="./contact.html">Contact</a></div>
-                <div><a href=https://github.com/lukelovekin?tab=repositories style="font-size:1.5em ; color: rgb(82, 76, 76);"><i
-                            class="fab fa-github"></i></a></div>
-                <div><a href="https://www.linkedin.com/in/luke-lovekin-b95a2411a/" style="font-size:1.5em ; color: rgb(82, 76, 76);"><i class="fab fa-linkedin"></i></a></div>
-                <div><a href="https://www.facebook.com/luke.lovekin.1" style="font-size:1.5em ; color: rgb(82, 76, 76);"><i class="fab fa-facebook"></i></a></div>
-                <div><a href="https://www.instagram.com/luke_lovekin/" style="font-size:1.5em ; color: rgb(82, 76, 76);"><i class="fab fa-instagram"></i></a></div>
-                <div><a href="https://twitter.com/LovekinLuke" style="font-size:1.5em ; color: rgb(82, 76, 76);"><i class="fab fa-twitter"></i></a></div>
-                <a href="https://medium.com/@lukelovekin" style="font-size:1.5em ; color: rgb(82, 76, 76);"><i class="fab fa-medium"></i></a>
-            </section>
+        <section class="sidebar">
+            <div><a href="./index.html">Home</a></div>
+            <div><a href="./contact.html">Contact</a></div>
+            <div><a href=https://github.com/lukelovekin?tab=repositories style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                        class="fab fa-github"></i></a></div>
+            <div><a href="https://www.linkedin.com/in/luke-lovekin-b95a2411a/" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                        class="fab fa-linkedin"></i></a></div>
+            <div><a href="https://www.facebook.com/luke.lovekin.1" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                        class="fab fa-facebook"></i></a></div>
+            <div><a href="https://www.instagram.com/luke_lovekin/" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                        class="fab fa-instagram"></i></a></div>
+            <div><a href="https://twitter.com/LovekinLuke" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                        class="fab fa-twitter"></i></a></div>
+            <a href="https://medium.com/@lukelovekin" style="font-size:1.5em ; color: rgb(87, 85, 85);"><i
+                    class="fab fa-medium"></i></a>
+
+                    
+
+        </section>
 
                     
                     <div id="pic"><img id="face" src="./docs/face (2).png" alt="temp pic"></div>
                     <div id="resume"><a href="./resume.html">Resume</a></div>
-                    <div id="tech">Tech</div>
+                    <div id="tech"><a href="./tech.html">Tech Background</a></div>
 
                     <div id="stack">
                             <img src="./docs/rubyicon.png" alt="ruby icon">
@@ -42,9 +85,9 @@
                             <img src="./docs/nodejsicon.png" alt="node js icon">      
                     </div>
 
-                    <div id="about">About</div>
+                    <div id="about"><a href="./about.html">About</a></div>
                     
-                    <div id="pic2"><img id="pic2" src="./docs/haz.jpg" alt="temp pic"></img></div>
+                    <div id="pic2"><img id="pic2" src="./docs/bowie.jpg" alt="temp pic"></img></div>
                 
                     
                 
@@ -56,8 +99,8 @@
 
             
                 <!-- <div id="e1">empty</div> -->
-                <!-- <div id="e2">empty</div> -->
-                <div id="news">News/Blog</div>
+                <div id="e2">empty</div>
+                <div id="news"><a href="./news.html">Other</a></div>
 
                 <footer>
                     <span>&copy;</span><span>&trade;</span>

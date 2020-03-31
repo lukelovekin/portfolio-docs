@@ -5,13 +5,13 @@ dont make it go too big on desktop
 
 accessibility
 
+SRI??
+
 comment code
 
 fix full screen
 
-yellow EDC24E
-orange EC9060
-red CC4343
+creat 3 branches!!
 
 =================================
 
@@ -23,7 +23,6 @@ red CC4343
 
 ====================================
 
-- blog posts x2
 - couple that say presents"" and slide"" is that just for presentation or put into md doc
 - sub resource integrity???
 using same setups for next pages just copy and past?

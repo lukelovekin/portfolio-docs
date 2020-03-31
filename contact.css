@@ -62,16 +62,11 @@ header {
     justify-content: space-around;
 }
 
-#contact {
+#contact, #resume, #tech, #about, #news {
     grid-area: con;
     background-color: white;
 }
 
-#resume {
-    grid-area: con;
-    background-color: white;
-
-}
 
 footer {
     
