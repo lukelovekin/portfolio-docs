@@ -4,7 +4,7 @@ body {
     justify-content: center;
     /* width: 100vw; */
     height: 100vh;
-    background-image: url(./docs/woody.jpg) ;
+    background-image: url(../docs/woody.jpg) ;
     background-position: center;
     /* background-size: 100vw; */
     background-repeat: no-repeat;
