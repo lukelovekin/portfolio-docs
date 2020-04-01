@@ -11,6 +11,9 @@ comment code
 
 creat 3 branches!! styles, dry editing
 
+about and blog brocken responsiveness
+
+
 =================================
 
 <i class="fas fa-terminal"></i> 

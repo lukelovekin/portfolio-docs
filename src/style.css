@@ -11,9 +11,19 @@ body {
     align-items: center;
 }
 
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;}
+
 .smallscreentoggle {
     display: none;
 }
+
 
 #mainpadding {
 
@@ -25,14 +35,14 @@ body {
     "head head head head head head head"
     "side pic pic one one one st"
     "side pic pic two two two st"
-    "side ab ab three three pic2 pic2"
-    "side four four five five pic2 pic2";
+    "side ab ab five five pic2 pic2"
+    "side ab ab five five pic2 pic2";
     /* background-color: rgb(102, 100, 96); */
     grid-gap: 8px;
     width: 80vw;
     height: 85vh;
     max-width: 1200px;
-	text-align: center;
+    text-align: center;
 	font-size: 1em;
     font-family: Source Sans Pro;
     font-size: 1.5;
@@ -52,9 +62,12 @@ header {
     grid-area: head;
     grid-column: span;
     background-color: rgba(182, 179, 179, 0.603);
+    font-size: 1.5em;
 }
 
 .sidebar {
+    
+    font-size: 1.25em;
     border-radius: 10px; 
     grid-area: side;
     display: flex;
@@ -64,6 +77,8 @@ header {
     align-items: center;
     justify-content: space-around;
 }
+
+
 
 #face, #pic2 {
     border-radius: 10px; 
@@ -86,13 +101,17 @@ header {
 
 img {
     object-fit: cover;
-    width: 100%;
+    width: 90%;
 }
 
 #resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px; 
-    background-color: white;
+    background-color: rgba(182, 179, 179, 0.603) ;
     grid-area: one;
+    font-size: 1.5em;
 }
 
 #stack { 
@@ -105,6 +124,7 @@ img {
     "p1 p2 p3"
     "p4 p5 p6"
     "p7 p8 p9";
+    align-items: center;
 }
 
 img:first-child{
@@ -136,9 +156,13 @@ grid-area: p9;
 }
 
 #about {
+     display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px; 
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(182, 179, 179, 0.603);
     grid-area: ab;
+    font-size: 1.5em;
 }
 
 #pic2 {
@@ -149,9 +173,13 @@ grid-area: p9;
 }
 
 #tech {
+     display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px; 
     grid-area: two;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(182, 179, 179, 0.603);
+    font-size: 1.5em;
 }
 
 #e1 {
@@ -167,9 +195,13 @@ grid-area: p9;
 } */
 
 #news {
+     display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px; 
     grid-area: five;
-    background-color: white;
+    background-color: rgba(182, 179, 179, 0.603);
+    font-size: 1.5em;
 }
 
 footer {
@@ -182,6 +214,91 @@ footer {
     font-size: 10px;
     }
 
+/* .animation-area{
+  background-color: linear-gradient(to left, #8942a8, #ba382f);
+  width: 100%;
+  height: 100vh;
+} */
+
+.box-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.box-area li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(255,255,255,0.2);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+
+.box-area li:nth-child(1){
+    left:86%;
+    width: 80px;
+    height: 80px;
+    animation-delay:0s;
+}
+
+.box-area li:nth-child(2){
+    left:12%;
+    width: 30px;
+    height: 30px;
+    animation-delay:1.5s;
+    animation-duration: 10s;
+}
+
+.box-area li:nth-child(3){
+    left:70%;
+    width: 100x;
+    height: 100px;
+    animation-delay:5.5s;
+    /* animation-duration: 10s; */
+}
+
+.box-area li:nth-child(4){
+    left:42%;
+    width: 150x;
+    height: 150px;
+    animation-delay:0s;
+    animation-duration: 15s;
+}
+
+.box-area li:nth-child(5){
+    left:65%;
+    width: 40px;
+    height: 40px;
+    animation-delay:0s;
+    /* animation-duration: 10s; */
+}
+
+.box-area li:nth-child(6){
+    left:15%;
+    width: 110x;
+    height: 110px;
+    animation-delay:3.5s;
+    /* animation-duration: 10s; */
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+        100%{
+        transform: translateY(-1000px) rotate(90deg);
+        opacity: 1;
+    }
+}
+
 @media screen and (min-width: 1350px){
     body {
         background-size: 100vw;
@@ -193,6 +310,9 @@ footer {
     #mainpadding {
         width: 100vw;
     }
+
+
+    
 }
 
 @media screen and (max-width: 700px){
@@ -216,6 +336,9 @@ footer {
         width: 80vw;
     }
 
+    header {
+        font-size: 1em;
+    }
 
     #tname {
         display: none;

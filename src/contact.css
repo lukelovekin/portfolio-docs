@@ -43,7 +43,7 @@ object-fit: cover;
     font-weight: 600;
 
     color: black;
-    opacity: .80;
+    opacity: .85;
     
 }
 
@@ -56,6 +56,8 @@ header {
     grid-area: head;
     grid-column: span;
     background-color: rgb(182, 179, 179, 0.603);
+    font-size: 1.5em;
+    height: 76px;
 }
 
 .sidebar {
@@ -67,12 +69,18 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    font-size: 1.25em;
+  
 }
 
-#resume2, #tech, #about, #news {
+a:visited {
+  color: black;
+}
+
+#resume2, #about, #news, #tech {
     border-radius: 10px; 
     grid-area: con;
-    background-color: white;
+    /* background-color: rgba(182, 179, 179, 0.603); */
 }
 
 #contactmain {
@@ -138,6 +146,7 @@ input[type=submit]:hover {
 
 #about {
   display: flex;
+  flex-wrap: wrap;
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: .20fr .20fr .20fr .20fr .20fr;
@@ -148,6 +157,7 @@ input[type=submit]:hover {
   "five six"
   "seven eight";
   align-items: center;
+  background-color: rgba(182, 179, 179, 0.603);
   
 }
 
@@ -191,6 +201,71 @@ input[type=submit]:hover {
   grid-area: eight;
 }
 
+#tech {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  grid-template-areas: 
+  "title title title"
+  "pro1 bla1 pro2"
+  "bla2 pro3 bla3";
+  grid-gap: 8px;
+  align-items: flex-start;
+  
+
+
+}
+
+#tech {
+ display: flex;
+ flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+#tech img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* #tech img {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  opacity: 1;
+  max-height: 100px;
+} */
+
+#t1 {
+  border-radius: 5px;
+  grid-area: pro1;
+  background-color:rgba(182, 179, 179, 0.603)
+}
+
+#t2 {
+  border-radius: 5px;
+  grid-area: bla1;
+  background-color:rgba(182, 179, 179)
+}
+
+#t3 {
+  border-radius: 5px;
+  grid-area: pro2;
+  background-color:rgba(182, 179, 179, 0.603);
+}
+
+#news {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+#news img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
 
 
 @media screen and (min-width: 1350px){
@@ -223,10 +298,11 @@ input[type=submit]:hover {
     }
     header { 
     grid-area: head;
+    font-size: 1em;
     }
  
     .smallscreentoggle {
-        display: unset;
+        display: unset ;
     }
 
 #tname{
