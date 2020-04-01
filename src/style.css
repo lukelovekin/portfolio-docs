@@ -27,7 +27,6 @@ a:visited {
 
 
 #mainpadding {
-
     position: relative;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
@@ -48,7 +47,6 @@ a:visited {
     font-family: Source Sans Pro;
     font-size: 1.5;
     font-weight: 600;
-
     color: black;
     opacity: .80;
     
