@@ -70,46 +70,21 @@ Slides include a *very detailed* list of components that will be used. A *compre
 
 ============
 
-R1	Implement no less than four HTML documents which link together and share a common theme, including components to present the following information:
-- Your name and contact details
-- Links to professional accounts such as Github and LinkedIn
-- Your work and/or study history and a link to a PDF of your resumé (resume can be a mock up)
-- Content about you to demonstrate your personality, skills and/or interests
-- A list of blog posts with titles and date published
-- A blog with FIVE sample posts (placeholder text can be used), blog posts need to have at least ONE image each	
-12
 
-==========
-
-R2	Create FOUR components which contain text content that are styled appropriately for audience. You must:
-- write CSS to style each component, or substantially override a CSS framework’s styles with your own
 - place comments in the CSS and HTML code to identify each component
-- have your custom styles or overrides in a separate stylesheet
+
 - use semantic HTML elements and attributes to add meaning and accessibility
 8
 
 ===========
 
-R3	Create FOUR components using HTML and CSS to contain graphical content that are appropriate for audience. You must:
-- write CSS to style each component, or substantially override a CSS framework’s styles with your own
 - place comments in the CSS and HTML code to indentify each component
-- have your custom styles or overrides in a separate stylesheet
+
 - use semantic HTML elements and attributes to add meaning and accessibility
 
-NOTE: you may create a component to contain an image and caption that could be reused across the site.
 8
 
 =========
-
-R4	Create a responsive layout for each page using HTML and CSS utilising Flexbox and/or CSS Grid to produce a responsive layout that:
-- will display all components at desktop, mobile, and tablet viewport widths
-- includes a navigation bar and/or header/sidebar
-All components should:
-- use valid HTML5 elements
-- use semantic HTML elements and attributes to add meaning and accessibility	
-14
-
-===========
 
 R5	Utilise source control to track tdevelopment of the project and to providifferent THREE versions of the site different branches. The three differeversions of the site can have slight cosmetdifferences such as:
 - a different colour theme or styles forcomponent(s)
@@ -130,19 +105,6 @@ R6	Implement Subresource Integrity (SRI) to enable browsers to verify that resou
 
 
 RUBRIK
-================================================================
-
-Develops semantically and syntactically valid and complete HTML/XHTML documents (R1*)
-6.0 to >5.0 pts
-HD
-Implements at least FOUR HTML documents which are *completely* semantically and syntactically valid.
-
-========================
-
-Develops a website using HTML documents which conform with a design brief (R1*)
-6.0 to >5.0 pts
-HD
-Implements at least FOUR HTML documents which link together and *very clearly* share a common theme, and present *all of* the information required according to the requirements.
 
 ========================
 
@@ -172,31 +134,6 @@ Presents an overview or sitemap which conforms with the design brief (R6)
 HD
 Slides include an overview or sitemap of *all* pages on the website. *Comprehensively* explains the overall structure of the website and how different pages will be navigated.
 
-=============================
-
-                                Utilises HTML and CSS to create components which communicates text content with clarity (R2*)
-                                6.0 to >5.0 pts
-                                HD
-                                Utilises HTML and CSS to create components which communicate text content with a *very high level* of clarity.
-
-                                This criterion is linked to a Learning OutcomeINT1012-4.2: Utilises HTML and CSS to create components which convey meaning with clarity using graphical content (R3*)
-                                6.0 to >5.0 pts
-                                HD
-                                Utilises HTML and CSS to create components which communicate graphical content with a *very high level* of clarity.
-
-================================
-
-                                Utilises HTML and CSS to combine components to create a website with a purpose which aligns with the brief (R4*)
-                                6.0 to >5.0 pts
-                                HD
-                                Utilises HTML and CSS to create components which combine to communicate content with a *very high level* of clarity.
-
-================================
-
-                                Utilises Flexbox and/or CSS Grid to create a range of functional web page elements (R4*)
-                                6.0 to >5.0 pts
-                                HD
-                                Utilises Flexbox and/or CSS Grid *comprehensively* to create a *wide range* of functional web page elements.
 
 ==============================
 

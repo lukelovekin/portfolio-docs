@@ -4,11 +4,13 @@ body {
     justify-content: center;
     /* width: 100vw; */
     height: 100vh;
-    background-image: url(../docs/woody.jpg) ;
+    background-image: url(./images/woody.jpg) ;
     background-position: center;
+    background-attachment: fixed;
     /* background-size: 100vw; */
     background-repeat: no-repeat;
     align-items: center;
+    background-size: cover;
 }
 
 img {
@@ -212,6 +214,7 @@ input[type=submit]:hover {
   "bla2 pro3 bla3";
   grid-gap: 8px;
   align-items: flex-start;
+  
   
 
 
