@@ -1,52 +1,42 @@
+/* background, behind grid */
 body {
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    /* width: 100vw; */
     height: 100vh;
     background-image: url(./images/woody.jpg) ;
     background-position: center;
     background-attachment: fixed;
-    /* background-size: 100vw; */
     background-repeat: no-repeat;
     align-items: center;
     background-size: cover;
 }
 
-img {
-width: 100px;
-object-fit: cover;
+/* sidebar for little screens not visible on bigger screens */
+.smallscreentoggle {
+    display: none;
 }
 
-  .smallscreentoggle {
-        display: none;
-    }
-
+/* non home page grid layout */
 #mainpadding {
-
-    
     position: relative;
     display: grid;
-    /* border: rgba(0, 0, 0, 0.205) solid 4px; */
     grid-template-columns: 2fr 12fr;
     grid-template-rows: 1fr 8fr;
     grid-template-areas: 
     "head head"
     "side con";
-    /* background-color: rgb(102, 100, 96); */
     grid-gap: 8px;
     width: 80vw;
     height: 85vh;
     max-width: 1200px;
-	text-align: center;
-	font-size: 1em;
+	  text-align: center;
+	  font-size: 1em;
     font-family: Source Sans Pro;
     font-size: 1.5;
     font-weight: 600;
-
     color: black;
-    opacity: .85;
-    
+    opacity: .85;   
 }
 
 header { 
@@ -72,35 +62,32 @@ header {
     align-items: center;
     justify-content: space-around;
     font-size: 1.25em;
-  
 }
 
+/* visited links */
 a:visited {
   color: black;
 }
 
+/* main content grid to other the non main pages
+ */
 #resume2, #about, #news, #tech {
     border-radius: 10px; 
     grid-area: con;
-    /* background-color: rgba(182, 179, 179, 0.603); */
 }
 
+/* main content to contact page */
 #contactmain {
-
     grid-area: con;
     align-items: center;
-
 }
 #contact {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
-
 footer {
-    
     position: absolute;
     bottom: -3px;
     left: -19px;
@@ -109,298 +96,264 @@ footer {
     font-size: 10px;
     }
 /* fix footer its in a different spot */
-/* Tablet */
+
 
 /* Contact Form */
-
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 300px; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border-radius: 6px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 300px;
+    padding: 12px; 
+    border-radius: 6px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px; 
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: rgba(66, 66, 66, 0.603);
-  color: rgb(255, 255, 255);
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    border: none;
+    background-color: rgba(66, 66, 66, 0.603);
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, change color*/
 input[type=submit]:hover {
-  background-color: #575c57;
+    background-color: #575c57;
 }
 
 /* Add a background color and some padding around the form */
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
+/* about page main content grid setup */
 #about {
-  display: flex;
-  flex-wrap: wrap;
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: .20fr .20fr .20fr .20fr .20fr;
-  grid-template-areas: 
-  "head head"
-  "one two"
-  "three four"
-  "five six"
-  "seven eight";
-  align-items: center;
-  background-color: rgba(182, 179, 179, 0.603);
-  
+    display: flex;
+    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .20fr .20fr .20fr .20fr .20fr;
+    grid-template-areas: 
+    "head head"
+    "one two"
+    "three four"
+    "five six"
+    "seven eight";
+    align-items: center;
+    background-color: rgba(182, 179, 179, 0.603);
 }
-
+/* about images */
 #aboutham, #aboutgam, #aboutmic, #aboutfoo {
-  text-align: center;
+    text-align: center;
 }
-
 #about > #ah3 {
-  grid-area: head;
+    grid-area: head;
 }
-
 #about > #p1 {
-  grid-area: one;
+    grid-area: one;
 }
-
 #about > #aboutham {
-  grid-area: two;
+    grid-area: two;
 }
-
 #about > #aboutgam {
-  grid-area: three;
+   grid-area: three;
 }
-
 #about > #p2 {
-  grid-area: four;
+    grid-area: four;
 }
- 
 #about > #p3 {
-  grid-area: five;
+    grid-area: five;
 }
-
 #about > #aboutmic {
-  grid-area: six;
+    grid-area: six;
 }
-
 #about > #aboutfoo {
-  grid-area: seven;
+    grid-area: seven;
 }
-
 #about > #p4 {
-  grid-area: eight;
+    grid-area: eight;
 }
 
+/* tech portfolio main content page */
 #tech {
-  display: flex;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 1fr 1fr;
-  grid-template-areas: 
-  "title title title"
-  "pro1 bla1 pro2"
-  "bla2 pro3 bla3";
-  grid-gap: 8px;
-  align-items: flex-start;
-  
-  
-
-
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-areas: 
+    "title title title"
+    "pro1 bla1 pro2"
+    "bla2 pro3 bla3";
+    grid-gap: 8px;
+    align-items: flex-start;
 }
-
 #tech {
- display: flex;
- flex-wrap: wrap;
-justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-
+/* images in tech portfolio page */
 #tech img {
   width: 400px;
   border-radius: 10px;
 }
-
-/* #tech img {
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
-  opacity: 1;
-  max-height: 100px;
-} */
-
 #t1 {
   border-radius: 5px;
   grid-area: pro1;
   background-color:rgba(182, 179, 179, 0.603)
 }
-
+/* tech portfolio grids */
 #t2 {
   border-radius: 5px;
   grid-area: bla1;
   background-color:rgba(182, 179, 179)
 }
-
 #t3 {
   border-radius: 5px;
   grid-area: pro2;
   background-color:rgba(182, 179, 179, 0.603);
 }
 
+/* blog main content grid */
 #news {
  display: flex;
  flex-wrap: wrap;
  justify-content: space-evenly;
 }
-
+/* blog main imags */
 #news img {
   width: 200px;
   height: 200px;
   border-radius: 10px;
 }
 
-
-
+/* responsivness for a bigger desktop */
 @media screen and (min-width: 1350px){
     body {
         background-size: 100vw;
     }
 }
 
+/* responsivness for a small desktop - tablet */
 @media screen and (max-width: 960px) and (min-width: 401px){
     #mainpadding {
         width: 100vw;
     }
 }
 
+/* responsivness for a small tablet phone phone */
+/* changing the grid layout for a smaller screen */
 @media screen and (max-width: 700px){
    
-    #mainpadding {           
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 8fr;
-        grid-template-areas: 
-        "head"
-        
-        "con";
-        font-size: 1em;
-        font-family: Source Sans Pro;
-        color: black;
-        width: 80vw;
-    }
-    header { 
+#mainpadding {           
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr;
+    grid-template-areas: 
+    "head"
+    "con";
+    font-size: 1em;
+    font-family: Source Sans Pro;
+    color: black;
+    width: 80vw;
+}
+
+header { 
     grid-area: head;
     font-size: 1em;
-    }
+}
  
-    .smallscreentoggle {
-        display: unset ;
-    }
+/* small screen toggle menu in header for small screens */
+.smallscreentoggle {
+    display: unset ;
+}
 
 #tname{
     display: none;
 }
 
+/* hide sidebar */
+.sidebar {
+    display: none;
+}
 
-    .sidebar {
-    display: none;}
+#contact {
+    grid-area: con;
+}
 
-
-    #contact {
-        grid-area: con;
-    }
-
-
-
-    /*  DROP DOWN BAR START */
+/*  DROP DOWN BAR START */
 /* Button styling */
 .menu-toggle {
-  display: inline-block;
-  padding: .75em 15px;
-  line-height: 1em;
-  font-size: 1em;
-  color: #333;
+    display: inline-block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    color: #333;
 }
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-  color: #c00;
+    color: rgb(46, 46, 46);
 }
 
-/*
- Default styles + Mobile first
- Offscreen menu style
-*/
 .main-menu {
-  position: absolute;
-  display: none;
-  left: -200px;
-  top: 0;
-  height: 100%;
-	overflow-y: scroll;
-	overflow-x: visible;
-	transition: left 0.3s ease,
-				      box-shadow 0.3s ease;
-	z-index: 999;
+    position: absolute;
+    display: none;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: visible;
+    transition: left 0.3s ease,
+    box-shadow 0.3s ease;
+  	z-index: 999;
 }
 
 .main-menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 2.5em 0 0;
-  /* Hide shadow w/ -8px while 'closed' */
-  -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-     -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-          box-shadow: -8px 0 8px rgba(0,0,0,.5);
-  min-height: 100%;
-  width: 200px;
-  background: #1a1a1a;
+    list-style: none;
+    margin: 0;
+    padding: 2.5em 0 0;
+    /* Hide shadow -8px while 'closed' */
+    -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+      -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+            box-shadow: -8px 0 8px rgba(0,0,0,.5);
+    min-height: 100%;
+    width: 200px;
+    background: #1a1a1a;
 }
 
 .main-menu a {
-  display: block;
-  padding: .75em 15px;
-  line-height: 1em;
-  font-size: 1em;
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #383838;
+    display: block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #383838;
 }
 
 .main-menu li:first-child a {
-  border-top: 1px solid #383838;
+   border-top: 1px solid #383838;
 }
 
 .main-menu a:hover,
 .main-menu a:focus {
-  background: #333;
-  text-decoration: underline;
+    background: #333;
+    text-decoration: underline;
 }
 
 .main-menu .menu-close {
-  position: absolute;
-  right: 0;
-  top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-/*
- On small devices, allow it to toggle...
-*/
-/*
- :target for non-JavaScript
- [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
-*/
+/* On small devices, allow it to toggle.*/
 .main-menu:target,
 .main-menu[aria-expanded="true"] {
   display: block;
@@ -415,25 +368,6 @@ justify-content: space-evenly;
 .main-menu[aria-expanded="true"] .menu-close {
   z-index: 1001;
 }
-
-
-/* 
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
-.main-menu:target + .backdrop,
-.main-menu[aria-expanded="true"] + .backdrop{
-  position: absolute;
-  display: block;  
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 998;
-  background: #000;
-  background: rgba(0,0,0,.85);
-  cursor: default;
-}
 /* DROP DOWN END */
 
 /* Mobile  */
@@ -443,4 +377,5 @@ justify-content: space-evenly;
     }
 }
 }
+
 
