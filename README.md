@@ -85,25 +85,6 @@ After looking for color schemes that I thought I liked, such as reds, oranges an
 After setting up the homepage the way I liked it I started in the linking pages basing them on the same concept as the home page, header at the top, sidebar on the left and a square for content in the middle.
 To help with audience engagement I decided to make the screen less cluttered and remove the sidebar on smaller screens and replace it with a toggle button in the header.
 
-I started my development process without too much thought in that I just wanted to get layout up and running with assignment content and then when that is all done I would further style and add special effects. In hindsight, I didn't plan enough and didn't consider time or what effect I would put where and ended up runnig out of time to do most effects I Had planned on
+Upon reflection I started my development process without too much thought in that I just wanted to get layout up and running with assignment content and then when that is all done I would further style and add special effects. In hindsight, I didn't plan enough and didn't consider time or what effects I would put where and ended up runnig out of time to do most effects I Had planned on having to settle with some issues I was having with ideal positioning. I'm still not at all confident in my design and styling abilities although I have a better idea of what dosen't look good, and what not to do next time.
 
 
-
-
-
-
-Outlines how planned pages, components and styling will engage audience (R9)
-6.0 to >5.0 pts
-HD
-
-
-
-
-
-
-
-
-
-Slides include a *very detailed* list of components that will be used. A *comprehensive* explanation is given as to how components and styling will engage the audience.
-
-Slides include wireframes/mockups of *all* planned pages of the website. Decision making process is *comprehensively* explained with regards to the overall aesthetic of the website
