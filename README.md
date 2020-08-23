@@ -1,7 +1,7 @@
 # Luke Lovekin's Portfolio
 
 Deployed Website -
-https://lukelovekin.github.io/portfolio-online-new/index.html
+https://lukelovekin.github.io/portfolio1-html-css-only/index
 
 Github Profile-
 https://github.com/lukelovekin/portfolio
