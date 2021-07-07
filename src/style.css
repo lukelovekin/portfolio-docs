@@ -4,7 +4,8 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-image: url(./images/woody.jpg) ;
+    /* background-image: url(./images/woody.jpg) ; */
+    background-color: #6F1A07;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -57,7 +58,7 @@ header {
     justify-content: space-between;
     grid-area: head;
     grid-column: span;
-    background-color: rgba(182, 179, 179, 0.603);
+    background-color: #BF211E;
     font-size: 1.5em;
 }
 
@@ -67,7 +68,7 @@ header {
     border-radius: 10px; 
     grid-area: side;
     display: flex;
-    background-color:rgba(182, 179, 179, 0.603);
+    background-color: #C75000;
     list-style: none;
     flex-direction: column;
     align-items: center;
@@ -101,7 +102,7 @@ img {
     align-items: center;
     justify-content: center;
     border-radius: 10px; 
-    background-color: rgba(182, 179, 179, 0.603) ;
+    background-color: #FF9505 ;
     grid-area: one;
     font-size: 1.5em;
 }
@@ -155,7 +156,7 @@ img:nth-child(6){
     align-items: center;
     justify-content: center;
     border-radius: 10px; 
-    background-color: rgba(182, 179, 179, 0.603);
+    background-color: #FF9505;
     grid-area: ab;
     font-size: 1.5em;
 }
@@ -174,7 +175,7 @@ img:nth-child(6){
     justify-content: center;
     border-radius: 10px; 
     grid-area: two;
-    background-color: rgba(182, 179, 179, 0.603);
+    background-color: #FF9505;
     font-size: 1.5em;
 }
 
@@ -185,7 +186,7 @@ img:nth-child(6){
     justify-content: center;
     border-radius: 10px; 
     grid-area: five;
-    background-color: rgba(182, 179, 179, 0.603);
+    background-color: #FF9505;
     font-size: 1.5em;
 }
 
